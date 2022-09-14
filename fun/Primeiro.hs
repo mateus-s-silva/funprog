@@ -6,7 +6,7 @@ module Primeiro where
     five = 5
 
     addFive :: Integer -> Integer
-    addFive x = addFive (addFive x)
+    addFive x = x + 5
 
     sempreSix :: Integer -> Integer
     sempreSix x = 6
